@@ -1,0 +1,74 @@
+
+.bg{
+  background-image: url(../bg.jpg);
+/*com isso o header fica sempre com o tamanho da tela */
+  height: 100vh;
+/*deixa o background com efeito paralax*/
+  background-attachment: fixed;
+/*cover é para nunca deixar espaço sem imagem*/
+  background-size: cover;
+  }
+
+/* aqui troco a imagem pra cada resolução na ordem do maior pro menor 
+@media screen and (max-width: 1500px) {
+.header.fullheight {
+background-image: url("image/cerca-1500.jpg") !important;
+}
+}
+@media screen and (max-width: 1000px) {
+.header.fullheight {
+background-image: url("image/cerca-1000.jpg") !important;
+}
+}
+@media screen and (max-width: 800px) {
+.header.fullheight {
+background-image: url("image/cerca-800.jpg") !important;
+}
+}
+@media screen and (max-width: 600px) {
+.header.fullheight {
+background-image: url("image/cerca-600.jpg") !important;
+}
+}
+@media screen and (max-width: 400px) {
+.header.fullheight {
+background-image: url("image/cerca-400.jpg") !important;
+}
+}
+@media screen and (max-width: 320px) {
+.fullheight {
+background-image: url("image/cerca-320.jpg") !important;
+}
+}*/
+
+
+/* label color */
+.input-field label {
+  color: #fff !important;
+  }
+  .input-field input[type=text], input[type=email], input[type=password] {
+  color: #fff !important;
+  }
+/* label focus color */
+.input-field input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  color: #fff !important;
+  }
+/* label underline focus color */
+.input-field input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+ }
+/* valid color */
+.input-field input[type=text].valid, input[type=email].valid, input[type=password].valid {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+ }
+/* invalid color */
+.input-field input[type=text].invalid, input[type=email].invalid, input[type=password].invalid {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+ }
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #fff !important;
+ }
